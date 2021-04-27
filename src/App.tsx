@@ -8,10 +8,7 @@ ipcRenderer.on('synchronous-message', (event, arg) => {
   console.log(arg) // prints "ping"
 })
 
-// ipcMain.on('synchronous-message', (event, arg) => {
-//   console.log(arg) // prints "ping"
-//   event.returnValue = 'pong'
-// })
+
 const Theo = 'Theo'
 const Hello = () => {
   return (
